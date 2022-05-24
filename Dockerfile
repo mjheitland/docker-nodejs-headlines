@@ -1,6 +1,6 @@
 # docker build -t mjheitland/printheadlines:node .
 # docker run mjheitland/printheadlines:node
-FROM node:12
+FROM node:14
 WORKDIR /src
 RUN chown node:node /src
 USER node
